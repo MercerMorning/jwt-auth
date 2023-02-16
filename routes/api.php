@@ -23,4 +23,5 @@ Route::controller(TodoController::class)->group(function () {
 Route::controller(BattleController::class)->group(function () {
     Route::post('battle', 'store');
     Route::post('participate', 'participate');
+    Route::post('execute', 'execute');
 });
